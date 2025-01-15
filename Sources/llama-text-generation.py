@@ -6,6 +6,7 @@ from transformers import pipeline
 
 task = "text-generation"
 model = "meta-llama/Llama-3.2-1B-Instruct"
+#model = "meta-llama/Llama-3.3-70B-Instruct"
 torch_dtype = torch.bfloat16
 device_map = "auto"
 
