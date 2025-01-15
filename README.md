@@ -4,7 +4,23 @@ This repository contains my personal experiments with artificial intelligence li
 In the following, you find some example applications, which I have developed during my AI learning journey.
 It is amazing to see, how easy AI can be integrated into software applications nowadays.
 
+## Examples
+
+Here is an overview of the examples contained in this repository.
+
+### 🧑‍💻 [LLaMa Text Generation](./Sources/llama-text-generation.py)
+
+This first example demonstrates the use of LLaMa for providing a ChatGPT-like experience on your local computer in the command line.
+
+![](./Screenshots/Screenshot.png)
+
+### 🧑‍💻 *More*
+
+*... coming soon*
+
 ## Prerequisites
+
+Here is a list of prerequisites, which are required for running the examples.
 
 ### 🧩 Python
 
@@ -51,11 +67,3 @@ Multi-GPU training on top of PyTorch.
 ```
 pip install accelerate
 ```
-
-## Examples
-
-### 🧑‍💻 [LLaMa Text Generation](./Sources/llama-text-generation.py)
-
-This first example demonstrates the use of LLaMa for providing a ChatGPT-like experience on your local computer in the command line.
-
-![](./Screenshots/Screenshot.png)
