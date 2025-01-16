@@ -8,11 +8,22 @@ It is amazing to see, how easy AI can be integrated into software applications n
 
 Here is an overview of the examples contained in this repository.
 
-### 🧑‍💻 [LLaMa Text Generation](./Sources/llama-text-generation.py)
+### 🧑‍💻 [Text Generation](./Sources/text-generation.py)
 
-This first example demonstrates the use of LLaMa for providing a ChatGPT-like experience on your local computer in the command line.
+This first example demonstrates the use of LLaMa 3.2 for providing a ChatGPT-like experience on your local computer in the command line.
 
-![](./Screenshots/Screenshot.png)
+![](./Screenshots/text-generation.png)
+
+### 🧑‍💻 [Image Generation](./Sources/image-generation.py)
+
+This second example demonstrates the use of Stable Diffusion 1.5 for generating images from text prompts on your local computer in the command line.
+
+![](./Screenshots/image-generation.png)
+
+The above prompt generated the following image.
+Note that with other pretrained diffusion models and prompts better results probably can be achieved.
+
+![](./Images/glasshouse.jpg)
 
 ### 🧑‍💻 *More*
 
@@ -50,13 +61,23 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 
 ### 🧩 Transformers
 
-Downloading and using pre-trained transformer models for text, video, and audio.
+Downloading and using pre-trained transformer models for generating text.
 
 *See https://github.com/huggingface/transformers*
 
 ```
 pip install transformers
 ```
+
+### 🧩 Diffusers
+
+Downloading and using pre-trained diffusion models for generating image, video, and audio.
+
+```
+pip install diffusers[torch]
+```
+
+*See https://github.com/huggingface/diffusers*
 
 ### 🧩 Accelerate
 
