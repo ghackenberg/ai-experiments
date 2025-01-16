@@ -88,3 +88,23 @@ Multi-GPU training on top of PyTorch.
 ```
 pip install accelerate
 ```
+
+### 🧩 Protobuf
+
+Language-neutral and platform-independent serialization and deserialization of data structures.
+
+*See https://github.com/protocolbuffers/protobuf*
+
+```
+pip install protobuf
+```
+
+### 🧩 SentencePiece
+
+Unsupervised text tokenizer and detokenizer for neural network based text generation.
+
+*See https://github.com/google/sentencepiece*
+
+```
+pip install sentencepiece
+```
